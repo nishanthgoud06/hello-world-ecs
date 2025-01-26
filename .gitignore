@@ -6,3 +6,68 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
+
+# AWS-related files
+cdk.out/
+cdk.context.json
+*.pem  # AWS key pairs
+*.crt  # SSL certificates
+*.key  # SSL private keys
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS-generated files
+*.~lock.*
+*.~undo.*
+*.~undo-tree.*
+
+# Git-related files
+*.lock
+*.lockfile
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Generated files
+dist/
+build/
+coverage/
+.env.test
+
+# Ignore package-lock.json only if you are not using it
+# package-lock.json
+
+# AWS CLI credentials or configurations
+~/.aws/
